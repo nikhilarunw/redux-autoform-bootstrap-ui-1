@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import CodeEditor from './CodeEditor';
 import { FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
-import { reduxForm } from 'redux-form';
+import { reduxForm } from 'redux-form-v5';
 import { browserHistory } from 'react-router';
 import presets from '../../client/presets/presets';
 
